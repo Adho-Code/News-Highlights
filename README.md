@@ -38,7 +38,7 @@ $ pip install flask-script
 
 or just use this
 
-$ git clone https://github.com/watibini/news-highlights.git
+$ git clone https://github.com/adhoadhi/News-Highlights.git
 
 * 4.Run the following command to make the app executable;
 $ chmod a+x start.sh
