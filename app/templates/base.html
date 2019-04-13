@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        {% if title %}
+        <title> {{ title }}</title>
+        {% else %}
+        <title> HeadLines.</title>
+        {% endif %}
+        <link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
+       
+    </head>
+    <body>
+<!-- Content block -->
+{%extends 'bootstrap/base.html'%}
+<!-- Navbar Block -->
+{% block navbar %}
+    {% include 'navbar.html' %}
+
+    </body>
+</html>
+{% endblock%}
