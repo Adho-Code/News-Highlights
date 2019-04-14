@@ -10,7 +10,7 @@ def index():
 	'''
 	# Getting popular news
 	general_news = get_headlines('general')
-	title = 'Home Page - Get The latest News Online Over The World'
+	title = 'Home Page - Get The latest News Online Across The World'
 	return render_template('index.html',title = title,general=general_news)
 
 @main.route('/general')

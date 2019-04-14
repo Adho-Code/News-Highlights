@@ -8,15 +8,18 @@
         <title> HeadLines.</title>
         {% endif %}
         <link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
-       
+        <link rel="shortcut icon" href="http://www.thedesidesign.com/wp-content/uploads/2011/11/express_news.png" type="image/png">
+
     </head>
     <body>
 <!-- Content block -->
 {%extends 'bootstrap/base.html'%}
+<div class>
 <!-- Navbar Block -->
-{% block navbar %}
+    {% block navbar %}
     {% include 'navbar.html' %}
 
-    </body>
+    {% endblock%}
+</div>
+</body>
 </html>
-{% endblock%}
