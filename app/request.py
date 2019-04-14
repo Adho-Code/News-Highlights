@@ -20,9 +20,9 @@ def process_results(news_list):
 	Function that processes that news result and transform them to a list of objects
 	
 	Args:
-		news_list: Alist of dictionaries  that contain news details
+		  news_list: Alist of dictionaries  that contain news details
 	Returns :
-		news_results = A list of news objects
+		  news_results = A list of news objects
 	'''
 	News_results=[]
 	for news_item in news_list:
