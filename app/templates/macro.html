@@ -9,29 +9,29 @@
     {% endfor %}
 
 {% endmacro %}
-
-
 {% macro displayHeadlinesList(general) %}
 
     {% for head in general %}
-        <div class="container-fluid container col-md-6 font" style="list-style-type:none">
-            <div>
-                <li><h1 ><a href="{{head.url}}"style="color: #C04000;">{{ head.title}}</a></h1></li>
+    <div class="container-fluid container col-md-6 font" style="list-style-type:none">
+        <div>
+        <li><h1 ><a href="{{head.url}}"style="color: #C04000;">{{ head.title}}</a></h1></li>
                 <img src="{{head.image_url}}" style="width:500px;height: 200px;">
-                <li>{{head.description}}</li>
-            </div>
-        </div>
+        <li>{{head.description}}</li>
+    </div>
+   </div>
     {% endfor %}
+
 {% endmacro %}
 
 {% macro displayArticles(articles_list) %}
+
         {% for article in articles_list %}
             <div class="row font">
-                <div class="col-md-6" ><img src="{{article.image_url}}" style="display: inline-block; height:300px;width: 600px; ">
-                    
-                </div>
-                <div class="col-md-6 ">
-                    <h3 style="color:#2f4f4f">{{article.title}}</h3><h5>by {{article.author}}</h5>
+               <div class="col-md-6" ><img src="{{article.image_url}}" style="display: inline-block; height:300px;width: 600px; ">
+
+            </div>
+            <div class="col-md-6 ">
+               <h3 style="color:#2f4f4f">{{article.title}}</h3><h5>by {{article.author}}</h5>
         
                     <p class="description">{{article.description}} <a href="{{article.url}}">Read more...</a></p>
                     <p class="timestamp"><b>Published on {{article.publish_time}}</b></p>
