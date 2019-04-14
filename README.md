@@ -1,4 +1,4 @@
-## NEWS HIGHLIGHTS
+## NEWS-HIGHLIGHTS
 This is a Python app that allows users to view news from various news sources.
 
 ## Author Name 
@@ -50,9 +50,6 @@ $ ./start.sh
 
 ## TDD
 
-## Live link
-
-Use this link to see the web-page
 
 
 ## Contact Informations
