@@ -50,6 +50,9 @@ $ ./start.sh
 
 ## TDD
 
+For testing the app run this in the terminal:
+
+$ ./start.sh
 
 
 ## Contact Informations
