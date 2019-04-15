@@ -16,17 +16,17 @@ Python 3.6
 
 ## Application requirements
 
-* 1.Ensure you have Python3.6 installed in your `computer`. you can download it by running this command
+* 1.Ensure you have Python3.6 installed in your computer. you can download it by running this command
 
-$ sudo apt-get update sudo apt-get install python3.6.
+`$ sudo apt-get update sudo apt-get install python3.6.`
 
-* 2.Ensure you have PiP installed in your `computer`, you can download it by running this command:
+* 2.Ensure you have PiP installed in your computer, you can download it by running this command:
 
-$ python get-pip.py
+`$ python get-pip.py`
 
-* 3.Ensure you have PiP flask-script installed in your `computer`, you can download it by running this command:
+* 3.Ensure you have PiP flask-script installed in your computer, you can download it by running this command:
 
-$ pip install flask-script
+`$ pip install flask-script`
 
 ## Project setup instruction/installations
 
@@ -38,14 +38,14 @@ $ pip install flask-script
 
 or just use this
 
-$ git clone https://github.com/adhoadhi/News-Highlights.git
+`$ git clone https://github.com/adhoadhi/News-Highlights.git`
 
 * 4.Run the following command to make the app executable;
 $ chmod a+x start.sh
 
 * 5.Run this command to open the app
-$ ./start.sh
-
+`$ ./start.sh
+`
 ## BDD
 
 ## TDD
