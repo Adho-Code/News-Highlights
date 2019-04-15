@@ -60,7 +60,9 @@ For testing the app run this in the terminal:
 
 $ ./start.sh
 ##
-live link `https://newshighlightschuu.herokuapp.com/`
+live link 
+You can reload this page by using this link:
+`https://newshighlightschuu.herokuapp.com/`
 `
 ## Contact Informations
 * Email-(adhoadhigal@gmail.com)
