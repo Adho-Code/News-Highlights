@@ -62,8 +62,8 @@ $ ./start.sh
 ##
 live link 
 You can reload this page by using this link:
-`https://newshighlightschuu.herokuapp.com/`
-`
+https://newshighlightschuu.herokuapp.com/
+
 ## Contact Informations
 * Email-(adhoadhigal@gmail.com)
 * Phone No. 0748393309
