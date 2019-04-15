@@ -62,6 +62,7 @@ def health():
 	health_news = get_news('health')
 	title = 'Home Page - Get The latest News Online Across The World'
 	return render_template('health.html',health=health_news)
+
 @main.route('/templates/article/<id>')
 def article(id):
     
@@ -72,4 +73,4 @@ def article(id):
     
     title = f'{id}'
 
-    return render_template('article.html', title = title, article = article_news)
+    return render_template('article.html', id = id, title = title, article = article_news)

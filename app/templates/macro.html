@@ -2,13 +2,26 @@
 
     {% for news in news_list %}
         <div class="font col-md-4" style="list-style-type:none">
-            <li><a href="{{news.url}}" style="color:#2f4f4f;"><h1>{{news.name}}</h1></a></li>
+            <li><a href={{news.url}} style="color:#2f4f4f;"><h1>{{news.name}}</h1></a></li>
             <li>{{news.description}}</li>
-            <a href=/templates/article/{{news.id}} style="font-size: 20px;">Click here to article</a>
+            <a href=/templates/article/{{news.id}} style="font-size: 20px;">Click here to view article</a>
         </div>
     {% endfor %}
 
 {% endmacro %}
+
+{% macro displayHeadlinesList(news_list) %}
+
+    {% for news in news_list %}
+        <div class="font col-md-4" style="list-style-type:none">
+            <li><a href={{news.url}} style="color:#2f4f4f;"><h1>{{news.name}}</h1></a></li>
+            <li>{{news.description}}</li>
+            <a href={{news.url}} style="font-size: 20px;">Click here to view article</a>
+        </div>
+    {% endfor %}
+
+{% endmacro %}
+
 {% macro displayHeadlinesList(general) %}
 
     {% for head in general %}
