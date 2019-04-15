@@ -59,8 +59,9 @@ $ chmod a+x start.sh
 For testing the app run this in the terminal:
 
 $ ./start.sh
-
-
+##
+live link `https://newshighlightschuu.herokuapp.com/`
+`
 ## Contact Informations
 * Email-(adhoadhigal@gmail.com)
 * Phone No. 0748393309
