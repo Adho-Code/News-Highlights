@@ -16,15 +16,15 @@ Python 3.6
 
 ## Application requirements
 
-* 1.Ensure you have Python3.6 installed in your computer. you can download it by running this command
+* 1.Ensure you have Python3.6 installed in your `computer`. you can download it by running this command
 
 $ sudo apt-get update sudo apt-get install python3.6.
 
-* 2.Ensure you have PiP installed in your computer, you can download it by running this command:
+* 2.Ensure you have PiP installed in your `computer`, you can download it by running this command:
 
 $ python get-pip.py
 
-* 3.Ensure you have PiP flask-script installed in your computer, you can download it by running this command:
+* 3.Ensure you have PiP flask-script installed in your `computer`, you can download it by running this command:
 
 $ pip install flask-script
 
