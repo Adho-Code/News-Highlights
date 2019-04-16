@@ -52,13 +52,13 @@ $ chmod a+x start.sh
 | The user click on Article |  User is able to view and read the complete article |
 |User clicks on sources items in the nav-bar   | all news sources available displayed  |
 |  User clicks on the link on the sources page | url page loads|
-| User clicks on the specific news on the navbar  | specific page displayed
-  |
+| User clicks on the specific news on the navbar  | specific page displayed|
+
 ## TDD
 
 For testing the app run this in the terminal:
 
-$ ./start.sh
+`$ ./start.sh`
 ##
 live link 
 You can reload this page by using this link:
